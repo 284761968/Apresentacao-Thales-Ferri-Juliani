@@ -1,7 +1,25 @@
+.minha-div {
+    width: 100px;
+    height: 100px;
+    margin: 25px 15px;
+    left: 55%;
+    top: 20%;
+    background-color: rgb(213, 235, 20);
+    animation: colorido 12s;
+}
+
+@keyframes colorido {
+    0% {
+        transform: rotate(360deg);
+
+      }
+    
+}
+
 #Sessão1 {
     position:relative; 
     width: 1200px;
-    height: 650px;
+    height: 800px;
     background-color: rgb(0, 0, 0);
     top: 0%;
     left: 0%; }
